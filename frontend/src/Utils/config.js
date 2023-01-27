@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://mern-social-network-app-backend-21nmmx0ho-nguyenminhtri2004.vercel.app/api/'
+export const BASE_URL = 'https://mern-social-network-app-backend-21nmmx0ho-nguyenminhtri2004.vercel.app'
