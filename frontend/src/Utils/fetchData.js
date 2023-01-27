@@ -1,4 +1,7 @@
 import axios from 'axios';
+import { BASE_URL } from './config';
+
+axios.defaults.baseURL = BASE_URL;
 
 export const getDataApi = async (url , token ) => {
     const res = await axios.get(`/api/${url}` , {
